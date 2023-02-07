@@ -1,6 +1,7 @@
 ## Members
 
 Andrew Pu
+Victor Hsiao
 
 # 💻 MERN stack template
 
