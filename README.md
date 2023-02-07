@@ -2,6 +2,8 @@
 
 Andrew Pu
 
+Kristin Ebuengan
+
 Victor Hsiao
 
 Shreya Nagunuri
