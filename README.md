@@ -1,3 +1,7 @@
+## Members
+
+Andrew Pu
+
 # 💻 MERN stack template
 
 Template for building projects with the MERN (MongoDB, Express, React, Node.js) stack.
