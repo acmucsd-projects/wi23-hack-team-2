@@ -8,6 +8,9 @@ Shreya Nagunuri
 
 Kevin Wu  
 
+Brandon Nghiem
+
+
 # 💻 MERN stack template
 
 Template for building projects with the MERN (MongoDB, Express, React, Node.js) stack.
