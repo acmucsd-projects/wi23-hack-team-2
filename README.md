@@ -1,7 +1,9 @@
 ## Members
 
 Andrew Pu
+
 Victor Hsiao
+
 Shreya Nagunuri
 
 # 💻 MERN stack template
