@@ -73,3 +73,5 @@ time = "2:00";
 x = time[0]+"."+time[2]
 
 console.log(x);
+
+sdsds
