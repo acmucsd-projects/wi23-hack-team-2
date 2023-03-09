@@ -28,27 +28,7 @@ const courseSchema = new mongoose.Schema({
 })
 
 const scheduleSchema = new mongoose.Schema({
-    subj_course_id: {
-        type: String,
-        required: true
-    },
-    sec_code: {
-        type: String,
-        required: true
-    },
-    sec_id: {
-        type: String,
-        required: true
-    },
-    instructor: {
-        type: String,
-        required: true
-    },
-    total_seats: {
-        type: String,
-        required: true
-    },
-    meetings: {
+    name: {
         type: String,
         required: true
     }

@@ -1,1 +1,28 @@
-GET http://localhost:3000/courses
+GET http://localhost:3000/courses/AAS/170
+
+###
+
+GET http://localhost:3000/courses/schedules
+
+###
+
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "subj_course_id": "course id 1",
+    "sec_code": "section code 1",
+    "sec_id": "section id 1",
+    "instructor": "instructor 1",
+    "total_seats": "total seats 1",
+    "meetings": "meetings 1"
+}
+
+###
+
+POST http://localhost:3000/class_collection/schedules
+Content-Type: application/json
+
+{
+    "name": "schedule 1"
+}

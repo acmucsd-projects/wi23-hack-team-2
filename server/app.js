@@ -17,10 +17,13 @@ dotenv.config();
 
 mongoose.connect(process.env.DB_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true }).then(() => {
+    useUnifiedTopology: true,
+    dbName: "classdb" }).then(() => {
   console.log('Connected to MongoDB database');
 });
+
 const db = mongoose.connection
+
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to Database'))
 
