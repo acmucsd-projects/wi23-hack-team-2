@@ -40,11 +40,17 @@ function check(classes) {
             continue
         }
 
+        let cnt = 0
+
         for (let j = 0; j < final_classes.length; j++) {
             if (!compare_day(classes[i], final_classes[j])) {
                 break;
             }
 
+            cnt += 1
+        }
+
+        if (cnt == final_classes.length) {
             final_classes.push(classes[i])
         }
     }
@@ -67,11 +73,11 @@ function compare_day(classinfo1, classinfo2) {
     days1 = list1[1];
     days2 = list2[1];
 
-    if (days1[0] != days2[0]) {
-        return true;
+    if (list1[0] == list2[0]) {
+        return false;
     }
 
-    if (days1[0] == days2[0]) {
+    if (days1[0]!= days2[0]) {
         if (comparetime(classinfo1, classinfo2)) {
             return true;
         }
@@ -102,13 +108,19 @@ function  comparetime(classinfo1, classinfo2){
 
     if (start_time1 == start_time2 || end_time1 == end_time2) {
         console.log("Time conflicts")
-        return false
+        return false;
     }
 
     else if (start_time1 < start_time2 && start_time2 < end_time1) {
         return false;
     }
 
+    /*
+
+    2:00 - 2:50
+    2:30 - 3:20
+
+    */
     //convert start time to int
     temp_start_time1 = start_time1[0]+"."+start_time1[2];
     class1_start = Number(temp_start_time1);
@@ -140,5 +152,3 @@ if (start2 > start1 + 0.5 || start2 < start1 - 0.9){
 
 }
   */  
-
-
