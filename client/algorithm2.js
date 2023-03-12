@@ -17,12 +17,18 @@ function check(classes) {
             final_classes.push(classes[i])
             continue
         }
-        
+
+        let cnt = 0
+
         for (let j = 0; j < final_classes.length; j++) {
             if (!compare_day(classes[i], final_classes[j])) {
                 break;
             }
 
+            cnt += 1
+        }
+
+        if (cnt == final_classes.length) {
             final_classes.push(classes[i])
         }
     }
