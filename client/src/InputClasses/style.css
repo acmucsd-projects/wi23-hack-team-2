@@ -1,4 +1,4 @@
-.class-input {
+/* .class-input {
     width: 508px;
     height: 84px;
     left: 388px;
@@ -13,4 +13,19 @@
     color: #2E6787;
     
     text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}*/
+
+h2 {
+    color: #466995;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+}
+
+.question {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    line-height: 30px;
 }

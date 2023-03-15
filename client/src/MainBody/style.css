@@ -1,17 +1,31 @@
-.input {
-    position: absolute;
-    width: 805px;
-    height: 115px;
-    left: 317px;
-    top: 223px;
+h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 250;
-    font-size: 96px;
-    line-height: 115px;
+h3 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+}
 
-    color: #2E6787;
+thanks {
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: none;
+}
 
-    text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+.welcome {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
 }

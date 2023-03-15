@@ -1,36 +1,43 @@
-.wrapper {
+.header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
     position: absolute;
-    width: 395px;
-    height: 46px;
-    left: 27px;
-    top: 38px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-
-    color: #EFF8FF;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 0 10px rgb(130, 130, 130);
 }
 
-.nav-bar {
-    position: absolute;
-    width: 1440px;
-    height: 113px;
-    left: 0px;
-    top: 0px;
-
-    background: #2E6787;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+ul {
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+    text-shadow: 0 0 10px rgb(130, 130, 130);
 }
 
-.elmo-logo {
-    position: absolute;
-    width: 130px;
-    height: 113px;
-    left: 1307px;
-    top: 0px;
+img {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
 
-    background: url(image.png);
+.align-left {
+    float: left;
+    clear: left;
+}
+
+.align-right {
+    float: right;
+    clear: right;
+}
+
+li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 80px;  
+}
+
+li:hover {
+    color: #DBE9EE;
 }
