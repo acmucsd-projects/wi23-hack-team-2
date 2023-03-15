@@ -74,25 +74,15 @@ h3 {
     padding: 30px;
 }
 
-h4 {
-    color: #466995;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase
-}
-
-p {
-    color: #466995;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-}
-
 footer {
     text-align: center;
     height: 100px;
+}
+
+thanks {
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: none;
 }
 
 .welcome {
@@ -107,64 +97,14 @@ footer {
 .question {
     text-align: center;
     position: relative;
+    padding: 10px;
+    line-height: 30px;
 }
-
-.answer {
-    border: 1px solid #466995;
-    margin: 20px;
-    display: inline-block;
-}
-
-.answer:hover {
-    background: #C0D6DF;
-    color: #FFF;
-}
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #FFF;
-    color: #466995;
-    padding: 16px;
-    font-size: 16px;
-}
-  
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(255, 240, 182);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(228, 205, 113);}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgb(255, 240, 182)}
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-    padding: 50px;
+    padding: 0px 100px
 }
 
 .grid-header {
