@@ -59,11 +59,11 @@ function check(classes) {
     // if length of final list not equal to initial list, then one or more classes has a time conflict with a class on this list
 
     if (final_classes.length != classes.length) {
-        return "Added classes: " + final_classes + " not equal to the " +  classes.length + " requested";
+        return final_classes;
     }
 
     // else return all class objects inputted, no time conflicts
-    return "Classes: " + final_classes;
+    return final_classes;
 }
 
 //compare days
