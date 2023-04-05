@@ -10,6 +10,12 @@ import "./style.css";
             <div className="elmo-logo"><img src="./triton-elmo.svg" alt="Triton Elmo"/></div>
         </div>
 
+
+        <nav className="navlinks">
+              <a href="/">Create</a>
+              <a href="/view">View</a>
+        </nav>
+
 */
 
 const Header = () => {
@@ -19,10 +25,7 @@ const Header = () => {
         <ul>
             <li>Build-a-Schedule</li>
         </ul>
-        <nav className="navlinks">
-              <a href="/">Create</a>
-              <a href="/view">View</a>
-        </nav>
+        
       </div>
       <div className="align-right">
           <img src="https://static.overlay-tech.com/assets/6498267d-3158-4b54-8e09-3a9e6174470b.png" alt="Triton Elmo"/>

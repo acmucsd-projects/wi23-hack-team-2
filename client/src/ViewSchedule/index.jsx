@@ -11,46 +11,6 @@ const ViewSchedule = () => {
             setBody(response.data.schedule);
         });
     }, []);
-    /*
-    const [body, setBody] = useState([]);
-  
-    useEffect(() => {
-        API.getSchedule().then((response) => {
-            console.log(response);
-            setBody(response.data.purchases);
-        });
-    }, []);
-
-    <div className="view-container">
-        {body.map((purchase) => {
-          return (
-            <div className="view-item">
-              <h1 className="item-title">{purchase.name}</h1>
-              <h2 className="item-subtitle">{purchase.description}</h2>
-              <div className="item-row">
-                <p className="item-text">{purchase.location}</p>
-                <p className="item-text">{purchase.date}</p>
-              </div>
-              <div className="item-row">
-                <h2 className="item-subtitle">${purchase.cost}</h2>
-                <p className="item-text">{purchase.method}</p>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="view">
-            <p>Your Schedule!</p>     
-            {body.map((schedule) => {
-                return (
-                    <div className="view-item">
-                        <h1 className="item-title">{schedule.name}</h1>
-                    </div>
-                );
-            })}    
-        </div>
-    */
 
     return (
         <div className="viewing">
