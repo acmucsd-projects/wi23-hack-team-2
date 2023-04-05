@@ -29,3 +29,8 @@ h2 {
     padding: 10px;
     line-height: 30px;
 }
+
+p {
+    font-size: 50px;
+    color: black;
+}
