@@ -32,8 +32,8 @@ DB_URL=mongodb://mongodburl.example.com:portnumber
 
 ## Running
 
-1. `cd` into `client` and run the command `yarn install` to install all dependencies
-2. To start the client, run `yarn start` in the same directory
-3. In another command window, `cd` into `server` and run `yarn install` and `yarn start`
+1. `cd` into `client` and run the command `npm install` to install all dependencies
+2. To start the client, run `npm start` in the same directory
+3. In another command window, `cd` into `server` and run `npm install` and `npm start`
    to install all dependencies and start the server.
 4. Happy hacking!
